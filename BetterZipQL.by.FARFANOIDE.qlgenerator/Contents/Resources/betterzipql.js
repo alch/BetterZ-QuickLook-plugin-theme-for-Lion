@@ -127,7 +127,6 @@ function tggl (a)
 {
 	closing = (!a.style.backgroundImage || a.style.backgroundImage.indexOf ("/open.png") >= 0);
 	a.style.backgroundImage = "url(" + resPath + (closing ? "/close" : "/open") + ".png)";
-
 	setRowClasses ();
 }
 
